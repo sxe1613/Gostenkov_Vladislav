@@ -1,0 +1,11 @@
+#skovorodka2, #nizskovorodki{
+    position: relative;
+}
+#skovorodka2{
+    top: -355px;
+    left: 1px;
+}
+#nizskovorodki{
+    top: -1065px;
+    left: 1px; 
+}
