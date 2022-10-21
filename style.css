@@ -2,20 +2,20 @@ ol{
     font-family: 'Sirin Stencil', sans-serif;
     font-size: 22px;
 }
+
 p{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-weight: 400;
     font-size: 28px;
     text-decoration: underline;
 }
+
 h2{font-family: 'Yanone Kaffeesatz', sans-serif;
     font-weight: 700;
     font-size: 36px;
 }
+
 h3{font-family: 'Yanone Kaffeesatz', sans-serif;
     font-weight: 600;
     font-size: 30px;
-}
-a{
-    text-decoration: line-through;
 }
