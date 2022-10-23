@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тег 	&lt;area&gt;</title>
+</head>
+<style>
+    body{
+        font-size: 20px;
+    }
+    h2{
+        color: cadetblue;
+    }
+    h3{
+        color:red
+    }
+</style>
+<body>
+    <h2>Описание</h2>
+    <p>HTML тег <code>&lt;area&gt;</code> определяет активные области на изображении, которые
+        являются ссылками, эти области могут отличаться формой и размером.
+        Картинка (изображение) с активными областями, называется картой-изображением.
+        Такая картинка ничем не отличается от обычной, за исключением того, что
+        содержит активные области (ссылки). Области могут перекрывать друг друга,
+        сверху окажется та, которая в коде располагается первее (выше). <br>
+        Элемент <code>&lt;area&gt;</code> используется только совместно с тегом
+        <code>&lt;map&gt;</code>в качестве его дочернего элемента.</p>
+    <h2>Атрибуты</h2>
+    <h3>alt:</h3>
+    <p>Определяет альтернативный текст, который будет виден вместо изображения,
+        если оно не может быть отображено (из-за медленной связи, ошибки в атрибуте
+        src и тд).</p>
+    <h3>coords:</h3>
+    <p>Атрибут coords указывает координаты активной области на карте-изображения.
+        Он используется вместе с атрибутом shape для указания размера, формы и
+        размещения активной области. Возможные значения атрибута:</p>
+    <ol style="list-style-type: disc">
+        <li><b>x1,y1,x2,y2</b>&mdash;указывает координаты верхнего левого и правого
+        нижнего угла прямоугольника (shape="rect").</li>
+    </ol>
+    <p>Определение координат для прямоугольника (shape="rect"):</p>
+    <img src="img/rect.png" usemap="#num1">
+    <map name="num1">
+        <area shape="rect" coords="129,147,343,266"
+        href="https://puzzleweb.ru/html/tag_area.php" alt="rect" title="rect">
+    </map>
+    <p>Ссылки расположена на <span style="color:green; font-weight: bold;">зелёных</span>
+        фигурах,наведите курсор и нажмите на него, чтобы убедиться.</p>
+    <ol style="list-style-type: disc">
+        <li><b>x,y,радиус</b>&mdash;определяет координаты центра окружности и радиус
+            (shape="circle").</li>
+    </ol>
+    <p>Определение координат для окружности (shape="circle"):</p>
+    <img src="img/circle.png" usemap="#num2">
+    <map name="num2">
+        <area shape="circle" coords="240,182,90"
+        href="https://puzzleweb.ru/html/tag_area.php" alt="circle" title="circle">
+    </map>
+    <ol style="list-style-type: disc">
+        <li><b>x1,y1,x2,y2,...,xn,yn</b>&mdash;определяет координаты вершин полигона
+            (многоугольника) (shape="poly").</li>
+    </ol>
+    <p>Определение координат для многоугольника (shape="poly"):</p>
+    <img src="img/poly.png" usemap="#num3">
+    <map name="num3">
+        <area shape="poly" coords="130,158,346,241,236,283" 
+        href="https://puzzleweb.ru/html/tag_area.php" alt="poly" title="poly">
+    </map>
+</body>
+</html>

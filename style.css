@@ -21,5 +21,7 @@ h3{font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 BODY {
-    background: url()
+    color:darkslategrey;
+    background: url(img/fon2.jpg);
+    background-attachment: fixed;
    }
