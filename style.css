@@ -25,3 +25,13 @@ BODY {
     background: url(img/fon2.jpg);
     background-attachment: fixed;
    }
+
+   hr{
+    margin: -30px auto 10px;
+    padding: 0;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #1f1209;
+    box-shadow: 0 20px 20px -20px #333;
+    width: 95%;
+   }
