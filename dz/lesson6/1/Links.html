@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ДЗ 6_1</title>
+    <style>
+        div a{
+            color: rgb(34, 156, 34);
+        }
+        div a:hover
+        {
+            color: red;
+        }
+    /* 1.2. Способы: разделительная полоса - это контент стилезованного прямого слэша*/
+        .firstSolution a::after,
+        .secondSolution td::after
+        {
+            content: "|";
+            color: red;
+            font-size: 30px;
+            padding-left: 5px;
+            font-weight: bold;
+        }
+        /* 3.Способ: использование свойства border */
+        .thirdSolution a
+        {
+            color: rgb(34, 156, 34);
+            border-right: solid red 3px;
+            padding: 0 8px 10px 0;
+        }
+        /* 4. Способ использование url в контенте */
+        .fourthSolution a::after
+        {
+            content: url('img/polosa.png');
+            margin: 0 5px 0 6px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 1. Способ: размещение последовательно ссылок в тегах <a>, строки которых помещены в <div>-->
+    <div class="firstSolution">
+        <a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">первая ссылка</a>
+        <a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">вторая ссылка</a>
+        <a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">третья ссылка</a>
+        <a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">четвертая ссылка</a>
+        <a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">пятая ссылка</a>
+    </div>
+    <br>
+    <!-- 2. Способ: размещение ссылок в таблице -->
+    <div class="secondSolution">
+        <table>
+            <tr>
+                <td><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">первая ссылка</a></td>
+                <td><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">вторая ссылка</a></td>
+                <td><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">третья ссылка</a></td>
+                <td><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">четвертая ссылка</a></td>
+                <td><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">пятая ссылка</a></td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div class="thirdSolution">
+        <a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">первая ссылка</a>
+        <a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">вторая ссылка</a>
+        <a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">третья ссылка</a>
+        <a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">четвертая ссылка</a>
+        <a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">пятая ссылка</a>
+    </div>
+    <br>
+    <div class="fourthSolution">
+        <a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">первая ссылка</a>
+        <a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">вторая ссылка</a>
+        <a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">третья ссылка</a>
+        <a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">четвертая ссылка</a>
+        <a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">пятая ссылка</a>
+    </div>
+    <br>
+</body>
+</html>

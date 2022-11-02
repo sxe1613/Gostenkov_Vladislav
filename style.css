@@ -1,6 +1,50 @@
 ol{
     font-family: 'Sirin Stencil', sans-serif;
     font-size: 22px;
+    list-style-image: none;
+}
+
+div a
+{
+    text-decoration: none;
+}
+
+#firstUnit li
+{
+    list-style-type:none;
+}
+
+.fastAccess
+{
+    border-style: inset;
+    border-right-style: hidden;
+    padding-top: 32px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;
+    float: right;
+}
+.fastAccess a
+{
+    text-decoration: none;
+    color: #333;
+    
+}
+.fastAccess strong::after
+{
+    content:"\2BB7";
+    font-size: 30px;
+}
+.fastAccess a:hover
+{
+    color: blue;
+    font-size: 34px;
+}
+.fastAccess span
+{
+    color: #0e880e;
+    font-family: 'Sirin Stencil', sans-serif;
+    font-size: 24px;
+
 }
 
 p{
