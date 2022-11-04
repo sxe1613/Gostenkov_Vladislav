@@ -36,12 +36,12 @@ div a
 }
 .fastAccess a:hover
 {
-    color: blue;
+    color: rgb(179, 158, 98);
     font-size: 34px;
 }
 .fastAccess span
 {
-    color: #0e880e;
+    color: #4e9e4e;
     font-family: 'Sirin Stencil', sans-serif;
     font-size: 24px;
 
