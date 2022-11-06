@@ -82,3 +82,6 @@ BODY {
 a{
     color: #333;
 }
+/* li:not(img[src$='.gif']){
+    color: red;
+} */

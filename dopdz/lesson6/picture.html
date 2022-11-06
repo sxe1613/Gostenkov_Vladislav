@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ДЗ 6_Доп 1</title>
+    <style>
+        span{
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h3 align="center">Тег &lt;picture&gt;</h3>
+    <p>Тег &lt;picture&gt; используется для хранения одного и более элементов
+        &lt;source&gt; и элемента &lt;img&gt;. В каждом элементе
+        &lt;source&gt; содержится имя файла альтернативных версий изображения, а также условия, при которых браузер должен
+        их загрузить.</p>
+    <p>Браузер по очереди рассматривает содержание дочерних элементов
+        &lt;source&gt;, и в случае, если ни одно из указанных условий для загрузки изображений не может быть удовлетворено,
+        браузер загружает изображение, указанное в теге &lt;img&gt;.
+    </p>
+    Использование элемента &lt;picture&gt; позволяет загружать несколько вариантов изображения, оптимизированных под различные
+        размеры и другие параметры экрана. Данный тег хорош тем, что браузер подгружает одну нужную картинку, а не все. <br> <br>
+        <table border="1" style="border-collapse: collapse; text-align: center; height: 400px;">
+            <tr style="background-color: rgb(82, 157, 218);">
+                <th>Атрибут</th>
+                <th>Значение</th>
+                <th>Описание</th>
+            </tr>
+            <tr>
+                <td>media</td>
+                <td>media_query</td>
+                <td>Указывает, что файл адаптирован под определённые виды устройств.</td>
+            </tr>
+            <tr>
+                <td>sizes</td>
+                <td></td>
+                <td>Указывает допустимые относительные размеры источника. Добавлен в HTML5</td>
+            </tr>
+            <tr>
+                <td>src</td>
+                <td>URL</td>
+                <td>Указывает URL адрес медиа-файла.</td>
+            </tr>
+            <tr>
+                <td>srcset</td>
+                <td>URL</td>
+                <td>Указывает изображения, которые используются в разных ситуациях (для экранов планшетов, для экранов ретина и др.). Добавлен в HTML5.</td>
+            </tr>
+            <tr>
+                <td>type</td>
+                <td>video/ogg <br>
+                    video/mp4 <br>
+                    video/webm <br>
+                    audio/ogg <br>
+                    audio/mpeg</td>
+                <td>Указывает MIME-тип медийного источника.</td>
+            </tr>
+        </table>
+        <br> <br> <br>
+        <div>Пример для обычных дисплеев:
+            <code style="font-weight: bold;"> <br>
+                &lt;picture&gt; <br>
+                    &ltsource srcset="img/logo-desktop1x.jpg" media="(max-width: 575px)"&gt; <br>
+                    &lt;img src="img/big1x.jpg"&gt; <br>
+                &lt;/picture&gt;
+            </code>  <br> <br> <br>
+        <picture>
+            <source srcset="img/logo-mobile1x.jpg" media="(max-width: 575px)">
+            <img src="img/logo-desktop1x.jpg">
+        </picture>
+        </div>
+        <br> <br>
+        <div>Если в &lt;picture&gt; используется изображение формата svg, то никаких проблем не возникает. Но при png изображения могут плохо отображаться на retina-дисплеях.
+            Для этого нужно иметь как минимум 2 одинаковых изображения разных размеров, например: для обычных экранов размер ="x", а для retina = "2x" (т.е. в 2 раза больше).
+            И пример кода для разных видов дисплеев может выглядеть: <br>
+            <code style="font-weight: bold;"> <br>
+                &lt;picture&gt; <br>
+                    &ltsource srcset="img/logo-desktop1x.jpg <span>1x</span>, img/logo-desktop2x.jpg <span>2x</span> " media="(max-width: 575px)"&gt; <br>
+                    &lt;img src="img/logo-mobile1x.jpg"&gt; <br>
+                &lt;/picture&gt;
+            </code>
+        </div> <br><br>
+        <p>Чтобы перестраховаться от случая когда браузер не поддерживает SVG формат изображений, то можно написать код с использованием атрибута type:</p>
+        <div>
+            <code style="font-weight: bold;">
+                &lt;picture&gt; <br>
+                    &ltsource srcset="img/image.svg" <span>type="image/svg"</span>&gt; <br>
+                    &lt;img src="img/big1x.jpg"&gt; <br>
+                &lt;/picture&gt;
+            </code>
+        </div> <br><br>
+        <p>Атрибут sizes задаёт пространство, которое изображение будет занимать на экране. В показанном выше примере изображение займёт до 1200px, если минимальная ширина экрана равна 1280px.</p>
+        <code style="font-weight: bold;">
+            &lt;picture&gt; <br>
+                &lt;img srcset="small-car-image.jpg 400w, <br>
+                medium-car-image.jpg 800w, <br>
+                large-car-image.jpg 1200w" <br>
+        sizes="(min-width: 1280px) 1200px, <br>
+               (min-width: 768px) 400px, <br>
+               100vw" <br>
+        src="medium-car-image.jpg" alt="Car""&gt; <br>
+            &lt;/picture&gt;
+        </code>
+
+</body>
+
+</html>
