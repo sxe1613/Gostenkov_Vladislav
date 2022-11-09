@@ -1,0 +1,60 @@
+.header, .footer {
+    color:blue;
+    height: 50px;
+    background-color:#add8e6;
+    text-align: center;
+    padding: 25px 0 5px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu {
+    width: 153px;
+    background-color:#f0e68c;
+    float: left;
+}
+.clearfix:after{
+    display: block;
+    clear:both;
+    content: '';
+}
+img{
+    float: left;
+    margin: 10px 20px 0 30px;
+}
+h4 {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+}
+.content {
+    background-image: url('../lesson5/img/ball.png');
+    background-position: right top;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
+
+@media all and (max-width: 808px) {
+    .menu, .content {
+        height: 400px;
+    }
+}
+@media all and (max-width: 808px) {
+    .menu, .content {
+        float: none;
+        width: 100%;
+    }
+}
+@media all and (max-width: 433px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .footer {
+        margin-top: 140px;
+    }
+    .content {
+        background-image:none;
+    }
+}

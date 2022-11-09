@@ -1,98 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        *{
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-        }
-        .header, .footer {
-            background-color: rgb(189, 246, 105);
-            text-align: center;
-            height: 50px;
-        }
-        .content-wrap {
-            background-color: blue;
-        }
-        .menu {
-            background-color: red;
-            float: left;
-            width: 200px;
-        }
-        .banner {
-            background-color: green;
-            float: right;
-            width: 200px;
-        }
-        .content{
-            background-color: violet;
-        }
-        .clearfix::after{
-            display: block;
-            clear: both;
-            content: '';
-        }
-
-        @media all and (max-width: 1304px) {
-            .banner, .menu {
-                height: 300px;
-            }
-            .banner {
-                background-color: lightseagreen;
-            }
-            .menu {
-                background-color: goldenrod;
-            }
-        }
-        @media all and (max-width: 729px) {
-            .menu{
-                float: right;
-            }
-            .banner{
-                float: left;
-            }
-        }
-        @media all and (max-width: 729px) {
-            .menu, .banner{
-                float: none;
-                width: 100%;
-            }
-        }
-    </style>
 </head>
-
 <body>
-    <div class="header">
-        <h1>hello</h1>
+    <div class="header"><h3>ПРИВЕТ УЧАСТНИКАМ СОРЕВНОВАНИЙ!</h3></div>
+    <div class="container">
+        <div class="menu"></div>
+        <div class="content"></div>
     </div>
-    <div class="content-wrap">
-        <div class="menu">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam asperiores commodi, voluptate
-            qui ducimus aliquam assumenda! Quam earum iusto doloremque reiciendis reprehenderit! Quaerat dolore id
-            molestiae delectus blanditiis velit accusantium.</div>
-        <div class="banner">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui nisi cupiditate, eligendi
-            explicabo libero sapiente modi distinctio ab velit cum maiores veniam nemo maxime sequi exercitationem?
-            Beatae, tenetur. Est, nobisasdfdd fhdheghdhdh!</div>
-        <div class="content  clearfix">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni officiis ea tenetur dicta porro
-                accusantium iste dolorem, dolorum, voluptates hic ullam culpa consequatur animi adipisci distinctio
-                necessitatibus voluptate rem veritatis.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni officiis ea tenetur dicta porro
-                accusantium iste dolorem, dolorum, voluptates hic ullam culpa consequatur animi adipisci distinctio
-                necessitatibus voluptate rem veritatis.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni officiis ea tenetur dicta porro
-                accusantium iste dolorem, dolorum, voluptates hic ullam culpa consequatur animi adipisci distinctio
-                necessitatibus voluptate rem veritatis.</p>
-        </div>
-    </div>
-    <div class="footer">
-        <h2>bye</h2>
-    </div>
+    <div class="footer">ГЛАВНОЕ НЕ ПОБЕДА, А УЧАСТИЕ!</div>
 </body>
-
 </html>
