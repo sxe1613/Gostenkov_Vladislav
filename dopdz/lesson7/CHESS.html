@@ -13,8 +13,11 @@
             content: url('../../dz/lesson6/3/img/extref.png');
         }
         @media print {
+            [href^="https://"]::before {
+                content: 'ссылка ';
+            }
             [href^="https://"]::after {
-                content: 'ссылка Инфомрация на ...';
+                content:' на https://chesspro.ru/statistic/botvinnik.shtml'
             }
         }
         
