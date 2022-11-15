@@ -12,35 +12,40 @@
         }
         .first {
             width: 300px;
-            border-right: solid 1px;
             padding: 0 10px 0 10px;
         }
         .second {
             width: 100%;
-            border-right: solid 3px;
             padding: 0 10px 0 10px;
         }
-        [type=tex2], [name=textxt1],  [value=1] {
+        .s, [name=rubrica1], [name=textxt1] {
             width: 100%;
+            box-sizing:border-box;
+            clear: both;
         }
-        textarea {
-            width: 100%;
+        [name=rubricasecond] {
+            margin-right: 993px;
+            float: right;
         }
+
     </style>
 </head>
 <body>
     <div class="first">Для публикации вашей статьи заполните, пожалуйста, следующую форму: <br><br>
         Название статьи:
         <form action="" name="form1">
-            <input type="text1"><br>
+            <input class="s" type="text"><br>
             Рубрика: <br>
             <select name="rubrica1">
-                <option value="1">программирование</option>
+                <option value="1">компьютерная техника</option>
+                <option value="2">графика и дизайн</option>
+                <option value="3" selected>программирование</option>
             </select> <br>
-                Публикация: <br>
-            <input type="radio" name="answer" value="rad1"> на сайте <br>
-            <input type="radio" name="answer" value="rad2"> в журнале <br>
-            <input type="radio" name="answer" value="rad3"> на сайте и в журнале <br>
+                <label>Публикация: <br>
+                <input type="radio" name="answer" value="rad1"> на сайте <br>
+                <input type="radio" name="answer" value="rad2"> в журнале <br>
+                <input type="radio" name="answer" value="rad3"> на сайте и в журнале <br>
+                </label>
             Разрешить комментарии: 
             <input type="checkbox" checked> <br>
             Текст статьи: <br>
@@ -49,27 +54,9 @@
         </form>
     </div>
 
-<br><br><hr><br><br>
+<br><br><hr><br><br><br><br><br><br>
 
-    <div class="second">Для публикации вашей статьи заполните, пожалуйста, следующую форму: <br><br>
-        Название статьи:
-        <form action="" name="form2">
-            <input type="text2"><br>
-            Рубрика: <br>
-            <select name="rubrica">
-                <option value="2">программирование</option>
-            </select> <br>
-                Публикация: <br>
-            <input type="radio" name="answer" value="rad1"> на сайте <br>
-            <input type="radio" name="answer" value="rad2"> в журнале <br>
-            <input type="radio" name="answer" value="rad3"> на сайте и в журнале <br>
-            Разрешить комментарии: 
-            <input type="checkbox" checked> <br>
-            Текст статьи: <br>
-            <textarea name="textxt2"></textarea> <br>
-            <input type="submit" value="Опубликовать">
-        </form>
-    </div>
+
     
 </body>
 </html>

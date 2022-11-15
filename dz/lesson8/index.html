@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .first {
+            width: 300px;
+            padding: 0 10px 0 10px;
+        }
+        .s, [name=rubrica1], [name=textxt1] {
+            width: 100%;
+            box-sizing:border-box;
+            clear: both;
+        }
+        [name=textxt1] {
+            width: 100%;
+            box-sizing:border-box;
+        }
+        .forma {
+            width: 100%;
+        }
+
+        .vsegda {
+            width: 100%;
+            box-sizing: border-box;
+        }
+        label {
+            float: left
+        }
+
+        
+        @media all and (max-width: 510px) {
+            .otstup {
+                padding-left: 0;
+                
+            }
+        }
+
+        @media all and (min-width: 510px) {
+            .otstup {
+                width: 100%;
+                box-sizing: border-box;
+                padding-left: 200px;
+            }
+        }
+
+        @media all and (max-width: 568px) {
+            .vniz::after {
+                display: block;
+                content:'';
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="first">Для публикации вашей статьи заполните, пожалуйста, следующую форму: <br><br>
+        Название статьи:
+        <form action="" name="form1">
+            <input class="s" type="text"><br>
+            Рубрика: <br>
+            <select name="rubrica1">
+                <option value="1">компьютерная техника</option>
+                <option value="2">графика и дизайн</option>
+                <option value="3" selected>программирование</option>
+            </select> <br>
+                <label>Публикация: <br>
+                <input type="radio" name="answer" value="rad1"> на сайте <br>
+                <input type="radio" name="answer" value="rad2"> в журнале <br>
+                <input type="radio" name="answer" value="rad3"> на сайте и в журнале <br>
+                </label> <br>
+            <label>
+                Разрешить комментарии: 
+                <input type="checkbox" checked> <br>
+            </label>
+            <label for="">Текст статьи: <br>
+                <textarea name="textxt1"></textarea> <br>
+                <input type="submit" value="Опубликовать"></label>
+        </form>
+    </div>
+<br> <br> <br><br><br><br><br><br><br> <br> <br><br><br><br><br><br><br> <br> <br><br><br><br><br><br><br> <br> <br><br><br><br><br><br><br>
+
+    <form class="forma" action="" name="form1">
+        <p style="padding-bottom: 10px;">Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+        <label>Название статьи:</label>
+        <div class="otstup">
+            <input class="vsegda" type="text">
+        </div>
+        <br>
+        <label>Рубрика:</label>
+        <div class="otstup">
+            <select class="vsegda" name="rubrica1">
+                <option value="1">компьютерная техника</option>
+                <option value="2">графика и дизайн</option>
+                <option value="3" selected>программирование</option>
+            </select>
+        </div>
+        <br>
+        <label class="vniz">Публикация:</label>
+        <div class="otstup">
+            <input style="vertical-align: text-bottom;" type="radio" name="answer" value="rad1"> на сайте
+            <input style="vertical-align: text-bottom;" type="radio" name="answer" value="rad2"> в журнале
+            <input style="vertical-align: text-bottom;" type="radio" name="answer" value="rad3"> на сайте и в
+            журнале
+        </div>
+        <br>
+        <label>Разрешить комментарии:</label>
+        <input type="checkbox" checked>
+        <br>
+        <label>Текст статьи: </label>
+        <textarea class="vsegda" name="textxt1"></textarea>
+        <br>
+        <input type="submit" value="Опубликовать">
+    </form>
+</body>
+
+</html>
