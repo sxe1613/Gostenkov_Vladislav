@@ -1,0 +1,45 @@
+*{
+    font-size: 17px;
+    margin: 5px;
+}
+
+/* №1 */
+
+.firstDiv {
+    width: 300px;
+    display: none;
+    /* СЮДА!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+}
+
+[name=text1], [name=select1], [name=article1] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+[name=text2], [name=select2], [name=article2] {
+    box-sizing: border-box;
+}
+
+/* №2 */
+
+.clearfix {
+    display: block;
+    clear: both;
+    content: '';
+}
+.articleName, .rubrica {
+    float: left;
+}
+
+[name=text2]{
+    float: left;
+    margin-left: 40px;
+    width: 87%;
+}
+
+[name=select2] {
+    float: left;
+}
+
+
+

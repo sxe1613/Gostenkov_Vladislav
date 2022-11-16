@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MAKET FORM</title>
+</head>
+<body>
+    <div class="firstDiv">
+        <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+        <form action="" name="form1">
+            <label>
+                Название статьи:
+                <input type="text" name="text1">
+            </label>
+            <label>
+            <br>
+                Рубрика:
+            <br>
+                <select name="select1">
+                    <option value="1">компьютерная техника</option>
+                    <option value="2">графика и дизайн</option>
+                    <option value="3" selected>программирование</option>
+                </select>
+            </label>
+            <br>
+            <label>
+                Публикация:
+            <br>
+                <input type="radio" name="answer" value="1">на сайте<br>
+                <input type="radio" name="answer" value="2">в журнале<br>
+                <input type="radio" name="answer" value="3">на сайте и в журнале<br>
+            </label>
+            <br>
+            Разрешить комментарии:  <input type="checkbox" checked><br>
+            Текст статьи: <br> 
+                <textarea name="article1"></textarea>
+            <input type="submit" value="Опубликовать">
+        </form>
+    </div>
+
+    <br><br><br><br><br>
+
+    <div class="secondDiv">
+        <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+        <form action="" name="form2">
+            <label class="lab1">
+                <div class="articleName">Название статьи:</div>
+                <div><input type="text" name="text2"></div>
+            </label>
+            <label class="clearfix">
+                <div class="rubrica">Рубрика:</div>
+                <select name="select2">
+                    <option value="4">компьютерная техника</option>
+                    <option value="5">графика и дизайн</option>
+                    <option value="6" selected>программирование</option>
+                </select>
+            </label>
+            <br>
+            <label>
+                <div class="radKnopki"></div>
+                    Публикация:
+                    <input type="radio" name="answer2" value="4">на сайте
+                    <input type="radio" name="answer2" value="5">в журнале
+                    <input type="radio" name="answer2" value="6">на сайте и в журнале<br>
+                </div>
+            </label>
+            <br>
+            Разрешить комментарии:  <input type="checkbox" checked><br>
+            Текст статьи: <br> 
+                <textarea name="article2"></textarea>
+            <input type="submit" value="Опубликовать">
+        </form>
+    </div>
+</body>
+</html>
