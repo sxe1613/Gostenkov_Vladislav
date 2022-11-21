@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.allimg {
+    position: relative;
+    /* background-color: aqua; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+}
+
+#YinYang {
+    position: absolute;
+    top: 282px;
+    left: 160px;
+}
+
+#biohazard {
+    position: absolute;
+    top: 86px;
+    left: 55px;
+}
+
+#mw {
+    position: absolute;
+    top: 72px;
+    left: 276px;
+}
+
+#nosmoking {
+    position: absolute;
+    top: 130px;
+    left: 132px;
+}
+#YinYang:hover {
+    z-index: 1;
+}
+
+#mw:hover {
+    z-index: 1;
+}
+
+#YinYang:hover {
+    z-index: 1;
+}
+
+#biohazard:hover {
+    z-index: 1;
+}
