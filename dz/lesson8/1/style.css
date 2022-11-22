@@ -52,16 +52,50 @@
 }
 
 .sp {
-    padding-left: 40px;
+    padding-left: 45px;
 }
 
+[for=public] {
+    margin: 0;
+}
 
 /* МЕДИАЗАПРОСЫ */
 
-@media all and (max-width: 601px) {
-    .sp {
+@media all and (max-width: 642px) {
+    [for="public"] {
         display: block;
+        margin-bottom: 0;
     }
-    
-    
-}
+
+    [id="public"] {
+        margin-bottom: 10px;
+    }
+  }
+
+  @media all and (max-width: 487px) {
+    span {
+        display: block;
+        margin: 0;
+    }
+    #public {
+        margin: 0;
+    }
+    [name=article2] {
+        margin: 0;
+    }
+    .lb2, .rubrica {
+        float: none;
+    }
+    [name=text2], [name=select2], .divInput {
+        margin-left: 0;
+    }
+
+  }
+
+  @media all and (max-width: 356px) {
+    [type=submit] {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
