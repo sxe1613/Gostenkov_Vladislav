@@ -46,10 +46,12 @@
     <div class="secondDiv">
         <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
         <form action="" name="form2">
-            <label class="lab1">
-                <div class="articleName">Название статьи:</div>
-                <div><input type="text" name="text2"></div>
+            <label class="lb2" for="NNN">
+                Название статьи:
             </label>
+            <div class="divInput">
+                <input id="NNN" type="text" name="text2">
+            </div>
             <label class="clearfix">
                 <div class="rubrica">Рубрика:</div>
                 <select name="select2">
@@ -58,19 +60,22 @@
                     <option value="6" selected>программирование</option>
                 </select>
             </label>
-            <br>
             <label>
-                <div class="radKnopki"></div>
                     Публикация:
                     <input type="radio" name="answer2" value="4">на сайте
                     <input type="radio" name="answer2" value="5">в журнале
-                    <input type="radio" name="answer2" value="6">на сайте и в журнале<br>
-                </div>
+                    <input type="radio" name="answer2" value="6">на сайте и в журнале
             </label>
             <br>
-            Разрешить комментарии:  <input type="checkbox" checked><br>
-            Текст статьи: <br> 
-                <textarea name="article2"></textarea>
+            <label>
+                Разрешить комментарии:  <input type="checkbox" checked><br>
+            </label>
+            <label class="lbTextar" for="MMM">
+                Текст статьи: <br>
+            </label>
+            <div class="divText">
+                <textarea id="MMM" name="article2"></textarea>
+            </div>
             <input type="submit" value="Опубликовать">
         </form>
     </div>

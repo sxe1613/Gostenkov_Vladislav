@@ -16,9 +16,6 @@
     box-sizing: border-box;
 }
 
-[name=text2], [name=select2], [name=article2] {
-    box-sizing: border-box;
-}
 
 /* №2 */
 
@@ -26,20 +23,34 @@
     display: block;
     clear: both;
     content: '';
+    margin: 0;
 }
-.articleName, .rubrica {
+.lb2 {
     float: left;
 }
 
 [name=text2]{
+    margin-left: 25px;
+}
+
+.divInput {
+    margin-left: 140px;
+}
+
+.rubrica {
     float: left;
-    margin-left: 40px;
-    width: 87%;
 }
 
 [name=select2] {
-    float: left;
+    margin-left: 91px;
+    box-sizing: border-box;
 }
 
+[name=text2], [name=article2] {
+    box-sizing: border-box;
+    width: 100%;
+}
 
-
+.lbTextar {
+    float: left;
+}
