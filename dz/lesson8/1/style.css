@@ -1,19 +1,17 @@
 *{
     font-size: 17px;
-    margin: 5px;
+    margin: 2px 7px;
+    box-sizing: border-box;
 }
 
 /* №1 */
 
 .firstDiv {
     width: 300px;
-    display: none;
-    /* СЮДА!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 }
 
 [name=text1], [name=select1], [name=article1] {
     width: 100%;
-    box-sizing: border-box;
 }
 
 
@@ -42,15 +40,28 @@
 }
 
 [name=select2] {
-    margin-left: 91px;
-    box-sizing: border-box;
+    margin-left: 86px;
 }
 
 [name=text2], [name=article2] {
-    box-sizing: border-box;
     width: 100%;
 }
 
-.lbTextar {
-    float: left;
+[name=article2] {
+    margin-left: 25px;
+}
+
+.sp {
+    padding-left: 40px;
+}
+
+
+/* МЕДИАЗАПРОСЫ */
+
+@media all and (max-width: 601px) {
+    .sp {
+        display: block;
+    }
+    
+    
 }

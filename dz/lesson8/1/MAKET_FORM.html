@@ -16,7 +16,6 @@
                 <input type="text" name="text1">
             </label>
             <label>
-            <br>
                 Рубрика:
             <br>
                 <select name="select1">
@@ -33,7 +32,6 @@
                 <input type="radio" name="answer" value="2">в журнале<br>
                 <input type="radio" name="answer" value="3">на сайте и в журнале<br>
             </label>
-            <br>
             Разрешить комментарии:  <input type="checkbox" checked><br>
             Текст статьи: <br> 
                 <textarea name="article1"></textarea>
@@ -60,19 +58,21 @@
                     <option value="6" selected>программирование</option>
                 </select>
             </label>
-            <label>
+            <div>
+                <label for="pub" class="lbRadio" style="float: left;" ></label>
                     Публикация:
-                    <input type="radio" name="answer2" value="4">на сайте
-                    <input type="radio" name="answer2" value="5">в журнале
-                    <input type="radio" name="answer2" value="6">на сайте и в журнале
+                        <span><input id="pub" type="radio" name="answer2" value="4">на сайте</span>
+                        <span><input id="pub"  type="radio" name="answer2" value="5">в журнале</span>
+                        <span><input id="pub" type="radio" name="answer2" value="6">на сайте и в журнале</span>
+            </div>
+            <br>
+            <div  class="clearfix"><label>
+                Разрешить комментарии:  <input type="checkbox" checked><br>
+            </label></div>
+            <label class="lbTextar" for="MMM">
+                Текст статьи:
             </label>
             <br>
-            <label>
-                Разрешить комментарии:  <input type="checkbox" checked><br>
-            </label>
-            <label class="lbTextar" for="MMM">
-                Текст статьи: <br>
-            </label>
             <div class="divText">
                 <textarea id="MMM" name="article2"></textarea>
             </div>
