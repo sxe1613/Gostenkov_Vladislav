@@ -24,3 +24,7 @@ li {
 .header {
     background: #1A1A25;
 }
+
+.header__top {
+    color: aliceblue;
+}
