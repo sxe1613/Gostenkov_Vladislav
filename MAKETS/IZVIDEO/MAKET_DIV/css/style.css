@@ -52,7 +52,7 @@ a{
     padding-top: 24px;
     padding-bottom: 20px;
     color: aliceblue;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid rgba(133, 143, 164, 0.15);;
 }
 
 .header__topLeft,
@@ -188,7 +188,7 @@ a{
 }
 
 .menu__icons li{
-    margin-right: 40px;
+    margin-right: 25px;
     width: 38px;
     height: 41px;
     margin-top: 4px;
@@ -205,4 +205,23 @@ a{
 .menu__icons li:last-child {
     background: url('../img/basket.svg') no-repeat center;
     margin-right: 0;
+}
+
+
+/* header__bottom */
+.header__bottom {
+    background: #2A2C38;
+}
+
+.header__bottom .container ul > li {
+    float: left;
+    padding: 13px 0 14px 0;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+li.vline {
+    margin: 7px 19px 0 19px;
 }
