@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    width: 1410px;
+    width: 14 10px;
     margin: 0 auto;
 }
 
@@ -18,6 +18,28 @@ li {
     list-style-type: none;
 }
 
+ul {
+    margin-bottom: 0;
+}
+
+.btn {
+    padding: 12px 20px 13px;
+    height: 42px;
+    border: 1px solid #F53B49;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F53B49;
+}
+ .white_btn {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF; 
+ }
+.btn:hover, .white_btn:hover{
+    color: black;
+    border: 1px solid black;
+}
 a{
     color:inherit;
     text-decoration: none;
@@ -226,8 +248,20 @@ li.vline {
     margin: 7px 19px 0 19px;
 }
 
-.carousel-item {
+
+/* carousel-wrap*/
+.carousel-wrap {
+    margin-top: 41px;
+}
+
+.carousel {
     width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-item {
+    padding-top: 81px;
     height: 500px;
     margin: 0 auto;
     background-repeat: no-repeat;
@@ -240,4 +274,47 @@ li.vline {
 
 .carousel-item:last-child {
     background-image: url('../img/slide2.png');
+}
+
+.carousel-item h2 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 110%;
+    text-transform: uppercase;
+    color: #F53B49;
+    margin-bottom: 24px;
+}
+
+.title_1 > h1 {
+    font-weight: 900;
+    font-size: 49.5455px;
+    line-height: 110%;
+    text-transform: uppercase;
+    color: #1A1A25;
+    margin-bottom: 24px;
+}
+
+.title_1 > h1 span{
+    font-weight: 400;
+}
+
+.title_2 > h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 49.5455px;
+    line-height: 110%;
+    text-transform: uppercase;
+    color: #F7F7F7;
+}
+
+.title_2 > h1 span:first-child {
+    font-weight: 400;
+}
+
+.title_2 > h1 span:last-child {
+    font-weight: 800;
+    font-size: 89.1818px;
+    line-height: 110%;
+    text-transform: uppercase;
+    color: #1A1A25;
 }
