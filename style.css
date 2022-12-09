@@ -21,10 +21,17 @@ div a
     border-right-style: hidden;
     padding-top: 32px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     position: fixed;
-    left: 1598px;
+    width: 250px;
+    left: 1266px;
+    top:100px;
     background-color: #d7dadf
+}
+.fastAccess strong
+{
+    font-size: 28px;
+    text-shadow: 2px 2px 3px gray
 }
 .fastAccess a
 {
@@ -60,11 +67,13 @@ p{
 h2{font-family: 'Yanone Kaffeesatz', sans-serif;
     font-weight: 700;
     font-size: 36px;
+    text-shadow: 3px 3px 3px gray
 }
 
 h3{font-family: 'Yanone Kaffeesatz', sans-serif;
     font-weight: 600;
     font-size: 30px;
+    text-shadow: 2px 2px 3px gray
 }
 
 BODY {
@@ -85,6 +94,3 @@ BODY {
 a{
     color: #333;
 }
-/* li:not(img[src$='.gif']){
-    color: red;
-} */

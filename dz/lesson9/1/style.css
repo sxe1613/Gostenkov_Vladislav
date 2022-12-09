@@ -1,0 +1,14 @@
+.videos {
+    overflow-y: scroll;
+    width: 350px;
+    height: 300px;
+}
+
+.first, .second, .third {
+    padding-top: 30px;
+    width: 100%;
+}
+
+a {
+    color: #ff0000
+}

@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+// header 
+.header {
+    height: 60px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h4 {
+        color: blue;
+        font-size: 20px;
+    }
+}
+
+
+// container
+.container {
+    display: flex;
+    justify-content: space-between;
+    .menu {
+        width: 300px;
+        background-color: rgb(171, 171, 48);
+        h5 {
+            padding-left: 20px;
+        }
+        ul {
+            position: relative;
+            left: 20px;
+        }
+    }
+    .content {
+        background: url('../../../lesson5/img/ball.png') top right repeat-y;
+        width: 79%;
+        h3 {
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        img {
+            float: left;
+            margin-right: 20px;
+        }
+    }
+}
+
+
+// footer 
+.footer {
+    height: 60px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1 {
+        color: blue;
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .header, .footer {
+        display: none;
+    }
+    .container {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        .content {
+            h3 {
+                text-align: center;
+            }
+            img {
+                float: none;
+                margin-bottom: 20px;
+            }
+            p {
+                margin-bottom: 20px;
+            }
+            background-image: none;
+        }
+        .menu {
+            width: 100%;
+            background-color: rgba(240, 248, 255, 0);
+            h5 {
+                padding: 0;
+            }
+            ul {
+                position: static;
+                list-style-type: none;
+            }
+        }
+    }
+}
