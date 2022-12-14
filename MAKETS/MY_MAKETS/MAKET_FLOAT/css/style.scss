@@ -11,6 +11,7 @@ body {
     overflow-x: hidden;
 }
 
+
 .clearfix:after {
     display: block;
     clear: both;
@@ -22,12 +23,36 @@ body {
     margin: 0 auto;
 }
 
+span {
+    background: url('../img/polosa_fon.jpg') 0 33px repeat-x;
+}
+
+.step {
+    padding-top: 52px;
+    float: left;
+    padding-left: 30px;
+}
+
+.carousel-control-prev {
+    left: 209px;
+    .carousel-control-prev-icon {
+        background: url('../img/preview.svg') no-repeat;
+    }
+}
+
+
+.carousel-control-next {
+    right: 171px;
+    .carousel-control-next-icon {
+        background: url('../img/next.svg') no-repeat;
+    
+    }
+}
+
 // #f4d26d
 // header 
 .header {
-    border: solid 1px;
     height: 870px;
-    margin-top: 48px;
     background: url('../img/vline\ 1.jpg') 86px repeat-y,
                 url('../img/vline\ 1.jpg') 534px repeat-y,
                 url('../img/vline\ 1.jpg') 982px repeat-y,
@@ -131,11 +156,11 @@ body {
 // 2nd block
 .tehmap {
     height: 560px;
-    background: url('../img/drawing.png') no-repeat 55px -23px,
-                url('../img/vline\ 1.jpg') 87px repeat-y,
-                url('../img/vline\ 1.jpg') 535px repeat-y,
-                url('../img/vline\ 1.jpg') 983px repeat-y,
-                url('../img/vline\ 1.jpg') 1432px repeat-y;
+    background: url('../img/drawing1.png') no-repeat 55px -23px,
+                url('../img/vline\ 1.jpg') 86px repeat-y,
+                url('../img/vline\ 1.jpg') 534px repeat-y,
+                url('../img/vline\ 1.jpg') 982px repeat-y,
+                url('../img/vline\ 1.jpg') 1431px repeat-y;
     .container {
         .article {
             position: relative;
@@ -147,9 +172,6 @@ body {
                 line-height: 55px;
                 color: #242424;
                 padding-bottom: 40px;
-                span {
-                    background: url('../img/polosa_fon.jpg') 0 33px repeat-x;
-                }
             }
             p {
                 line-height: 30px;
@@ -168,12 +190,328 @@ body {
 
 // 3rd block 
 .picture {
-    height: 700px;
     background:
-        url('../img/design1.jpg') no-repeat -15px -23px;
+        url('../img/design.png') no-repeat -15px -23px,
+        url('../img/vline\ 1.jpg') 86px repeat-y,
+        url('../img/vline\ 1.jpg') 534px repeat-y,
+        url('../img/vline\ 1.jpg') 982px repeat-y,
+        url('../img/vline\ 1.jpg') 1431px repeat-y;
     .container {
         .article2 {
             padding-left: 613px;
+            padding-top: 87px;
+            h1 {
+                width: 800px;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 55px;
+                color: #242424;
+                padding-bottom: 40px;
+            }
+            p {
+                line-height: 30px;
+            }
+        }
+    }
+}
+
+
+// 4d block 
+.repair_project {
+    margin-top: 120px;
+    background:
+    url('../img/vline\ 1.jpg') 86px repeat-y,
+    url('../img/vline\ 1.jpg') 534px repeat-y,
+    url('../img/vline\ 1.jpg') 982px repeat-y,
+    url('../img/vline\ 1.jpg') 1431px repeat-y;
+    .rp_header {
+        padding-bottom: 50px;
+        .container {
+            h1 {
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 55px;
+                text-align: center;
+                color: #242424;
+                }
+        }
+    }
+    .rp_div1 {
+        padding-bottom: 50px;
+        .container {
+            div:first-child {
+                float: left;
+                width: 568px;
+                .mask{
+                    height: 144px;
+                    width: 110px;
+                    float: left;
+                    margin-right: 30px;
+                    background:
+                    url('../img/Mask\ group.jpg') no-repeat;
+                    img {
+                        padding-left: 15px;
+                    }
+                }
+                p {
+                    line-height: 30px;
+                }
+            }
+            div:last-child {
+                padding-left: 20px;
+                float: left;
+                width: 568px;
+                .mask {
+                    background:
+                    url('../img/Mask\ group.jpg') no-repeat;
+                    height: 144px;
+                    width: 110px;
+                    margin-right: 30px;
+                    img {
+                        padding-left: 15px;
+                    }
+                }
+                p {                 
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+    .rp_div2 {
+        padding-bottom: 50px;
+        .container {
+            div:first-child {
+                float: left;
+                width: 568px;
+                .mask {
+                    height: 144px;
+                    width: 110px;
+                    float: left;
+                    margin-right: 30px;
+                    background:
+                    url('../img/Mask\ group.jpg') no-repeat;
+                    img {
+                        padding-left: 15px;
+                    }
+                }
+                p {
+                    line-height: 30px;
+                }    
+            }
+            div:last-child {
+                padding-left: 20px;
+                float: left;
+                width: 605px;
+                .mask {
+                    background:
+                    url('../img/Mask\ group.jpg') no-repeat;
+                    height: 144px;
+                    width: 110px;
+                    margin-right: 30px;
+                    img {
+                        padding-left: 15px;
+                    }
+                }
+                p {                 
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+    .rp_div3 {
+        .container {
+            div:first-child{
+                padding-bottom: 98px;
+                width: 1146px;
+                .mask{
+                    height: 144px;
+                    width: 110px;
+                    float: left;
+                    margin-right: 30px;
+                    background:
+                    url('../img/Mask\ group.jpg') no-repeat;
+                    img {
+                        padding-left: 15px;
+                    }
+                }
+                p {
+                    line-height: 30px;
+                }  
+            }
+            div:last-child {
+                margin: 0 500px;
+                button {
+                    width: 280px;
+                    height: 45px;
+                    background: #FFBF00;
+                    border: none;
+                    font-weight: 600;
+                    font-size: 13px;
+                    line-height: 16px;
+                    text-align: center;
+                    color: #242424;
+                }
+            }
+        }
+    }
+}
+
+// 5d block 
+.our_projects {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    background:
+    url('../img/vline\ 1.jpg') 86px repeat-y,
+    url('../img/vline\ 1.jpg') 534px repeat-y,
+    url('../img/vline\ 1.jpg') 982px repeat-y,
+    url('../img/vline\ 1.jpg') 1431px repeat-y;
+    .container {
+        h1 {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 55px;
+            text-align: center;
+            color: #242424;
+            padding-bottom: 30px;
+        }
+        p {
+            font-weight: 700;
+            line-height: 18px;
+            text-align: center;
+            color: #242424;
+            padding-bottom: 26px;
+        }
+        .slider {
+            height: 382px;
+            padding: 26px 0 0 22px;
+            margin-bottom: 76px;
+            left: 342px;
+            #carouselExampleFade {
+                padding-left: 342px;
+                position: relative;
+                .carousel-inner {
+                    .carousel-item {
+                        img {
+                            width: 573px;
+                            height: 382px;
+                        }
+                        button {
+                            width: 155px;
+                            height: 40px;
+                            background: #FFFFFF;
+                            font-weight: 700;
+                            line-height: 18px;
+                            color: #242424;
+                            border: none;
+                            position: absolute;
+                            right: 568px;
+                            bottom: 12px;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        p {
+            font-weight: 700;
+            line-height: 18px;
+            text-align: center;
+            color: #242424;
+        }
+    }
+}
+
+
+// 6th block 
+.humans_code {
+    padding-bottom: 103px;
+    background:
+    url('../img/vline\ 1.jpg') 86px repeat-y,
+    url('../img/vline\ 1.jpg') 534px repeat-y,
+    url('../img/vline\ 1.jpg') 982px repeat-y,
+    url('../img/vline\ 1.jpg') 1431px repeat-y;
+    .container {
+        h1 {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 55px;
+            text-align: center;
+            color: #242424;
+            padding-bottom: 104px;
+        }
+        img {
+            float: left;
+            margin-right: 30px;
+        }
+        p {
+            line-height: 30px;
+            padding-top: 46px;
+        }
+    }
+}
+
+
+// 7th block 
+.works {
+    padding-bottom: 30px;
+    background:
+    url('../img/vline\ 1.jpg') 86px repeat-y,
+    url('../img/vline\ 1.jpg') 534px repeat-y,
+    url('../img/vline\ 1.jpg') 982px repeat-y,
+    url('../img/vline\ 1.jpg') 1431px repeat-y;
+    .container {
+        .one {
+            background: url('../img/01.jpg') no-repeat 37px 46px;
+        }
+        .two {
+            background: url('../img/02.jpg') no-repeat 37px 46px;
+        }
+        .three {
+            background: url('../img/03.jpg') no-repeat 37px 46px;
+        }
+        .four {
+            background: url('../img/04.jpg') no-repeat 37px 46px;
+        }
+        .five {
+            background: url('../img/05.jpg') no-repeat 37px 46px;
+            padding-bottom: 50px;
+        }
+        h1 {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 55px;
+            text-align: center;
+            color: #242424;
+        }
+        p {
+            font-weight: 700;
+            line-height: 18px;
+            text-align: center;
+            color: #242424;
+        }
+        .step {
+            h6 {
+                font-weight: 700;
+                line-height: 18px;
+                color: #242424;
+            }
+            p {
+                font-weight: 400;
+                line-height: 30px;
+                color: #000000;
+                text-align: inherit;
+            }
+        }
+        button {
+            width: 280px;
+            height: 45px;
+            background: #FFBF00;
+            border: none;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 16px;
+            text-align: center;
+            color: #242424;
         }
     }
 }
