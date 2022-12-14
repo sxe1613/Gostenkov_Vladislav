@@ -53,11 +53,12 @@ span {
 // header 
 .header {
     height: 870px;
-    background: url('../img/vline\ 1.jpg') 86px repeat-y,
+    background: url('../img/vline\ 1.jpg') 290px repeat-y,
                 url('../img/vline\ 1.jpg') 534px repeat-y,
                 url('../img/vline\ 1.jpg') 982px repeat-y,
                 url('../img/vline\ 1.jpg') 1431px repeat-y,
                 url('../img/header_fon.jpg') top center no-repeat;
+    
     .header_top {
         .container {
             div:first-child {
@@ -209,6 +210,7 @@ span {
                 padding-bottom: 40px;
             }
             p {
+                margin: 0;
                 line-height: 30px;
             }
         }

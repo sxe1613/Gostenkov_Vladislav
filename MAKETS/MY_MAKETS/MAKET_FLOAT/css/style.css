@@ -149,7 +149,7 @@ span {
       line-height: 30px; }
 
 .repair_project {
-  margin-top: 120px;
+  padding-top: 120px;
   background: url("../img/vline 1.jpg") 86px repeat-y, url("../img/vline 1.jpg") 534px repeat-y, url("../img/vline 1.jpg") 982px repeat-y, url("../img/vline 1.jpg") 1431px repeat-y; }
   .repair_project .rp_header {
     padding-bottom: 50px; }
