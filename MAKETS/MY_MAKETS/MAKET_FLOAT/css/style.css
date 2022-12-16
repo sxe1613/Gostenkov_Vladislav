@@ -27,19 +27,23 @@ span {
   float: left;
   padding-left: 30px; }
 
+.carousel-item img {
+  float: left;
+  margin-right: 29px; }
+
 .carousel-control-prev {
-  left: 209px; }
+  left: -103px; }
   .carousel-control-prev .carousel-control-prev-icon {
     background: url("../img/preview.svg") no-repeat; }
 
 .carousel-control-next {
-  right: 171px; }
+  right: -117px; }
   .carousel-control-next .carousel-control-next-icon {
     background: url("../img/next.svg") no-repeat; }
 
 .header {
   height: 870px;
-  background: url("../img/vline 1.jpg") 16% repeat-y, url("../img/vline 1.jpg") 84% repeat-y, url("../img/header_fon.jpg") top center no-repeat; }
+  background: url("../img/header_fon.jpg") top center no-repeat; }
   .header .header_top .container div:first-child {
     float: left; }
     .header .header_top .container div:first-child img:first-child {
@@ -112,8 +116,9 @@ span {
         color: #242424; }
 
 .tehmap {
-  height: 560px;
-  background: url("../img/drawing1.png") no-repeat 55px -23px, url("../img/vline 1.jpg") 16% repeat-y, url("../img/vline 1.jpg") 84% repeat-y; }
+  height: 560px; }
+  .tehmap .container .img {
+    float: left; }
   .tehmap .container .article {
     position: relative;
     top: 140px;
@@ -133,8 +138,12 @@ span {
       line-height: 18px;
       color: #242424; }
 
-.picture {
-  background: url("../img/design.png") no-repeat -15px -23px, url("../img/vline 1.jpg") 16% repeat-y, url("../img/vline 1.jpg") 84% repeat-y; }
+.picture .container {
+  position: relative; }
+  .picture .container .img {
+    float: left;
+    position: absolute;
+    left: -110px; }
   .picture .container .article2 {
     padding-left: 613px;
     padding-top: 87px; }
@@ -150,8 +159,7 @@ span {
       line-height: 30px; }
 
 .repair_project {
-  margin-top: 120px;
-  background: url("../img/vline 1.jpg") 16% repeat-y, url("../img/vline 1.jpg") 84% repeat-y; }
+  margin-top: 120px; }
   .repair_project .rp_header {
     padding-bottom: 50px; }
     .repair_project .rp_header .container h1 {
@@ -243,9 +251,7 @@ span {
       color: #242424; }
 
 .our_projects {
-  margin-top: 100px;
-  margin-bottom: 30px;
-  background: url("../img/vline 1.jpg") 16% repeat-y, url("../img/vline 1.jpg") 84% repeat-y; }
+  padding-top: 100px; }
   .our_projects .container h1 {
     font-weight: 700;
     font-size: 40px;
@@ -257,20 +263,17 @@ span {
     font-weight: 700;
     line-height: 18px;
     text-align: center;
-    color: #242424;
-    padding-bottom: 26px; }
+    color: #242424; }
   .our_projects .container .slider {
-    height: 382px;
     padding: 26px 0 0 22px;
-    margin-bottom: 76px;
     left: 342px; }
     .our_projects .container .slider #carouselExampleFade {
-      padding-left: 342px;
+      padding-left: 30px;
       position: relative; }
       .our_projects .container .slider #carouselExampleFade .carousel-inner .carousel-item img {
         width: 573px;
         height: 382px; }
-      .our_projects .container .slider #carouselExampleFade .carousel-inner .carousel-item button {
+      .our_projects .container .slider #carouselExampleFade .carousel-inner .carousel-item .btn_visual {
         width: 155px;
         height: 40px;
         background: #FFFFFF;
@@ -279,17 +282,28 @@ span {
         color: #242424;
         border: none;
         position: absolute;
-        right: 568px;
+        left: -144px;
         bottom: 12px; }
-  .our_projects .container p {
-    font-weight: 700;
-    line-height: 18px;
-    text-align: center;
-    color: #242424; }
+      .our_projects .container .slider #carouselExampleFade .carousel-inner .carousel-item .btn_realise {
+        width: 155px;
+        height: 40px;
+        background: #FFFFFF;
+        font-weight: 700;
+        line-height: 18px;
+        color: #242424;
+        border: none;
+        position: absolute;
+        left: 458px;
+        bottom: 12px; }
+    .our_projects .container .slider p {
+      margin-top: 100px;
+      font-weight: 700;
+      line-height: 18px;
+      text-align: center;
+      color: #242424; }
 
 .humans_code {
-  padding-bottom: 103px;
-  background: url("../img/vline 1.jpg") 16% repeat-y, url("../img/vline 1.jpg") 84% repeat-y; }
+  padding-bottom: 103px; }
   .humans_code .container h1 {
     font-weight: 700;
     font-size: 40px;
@@ -298,15 +312,13 @@ span {
     color: #242424;
     padding-bottom: 104px; }
   .humans_code .container img {
-    float: left;
     margin-right: 30px; }
   .humans_code .container p {
     line-height: 30px;
     padding-top: 46px; }
 
 .works {
-  padding-bottom: 30px;
-  background: url("../img/vline 1.jpg") 16% repeat-y, url("../img/vline 1.jpg") 84% repeat-y; }
+  padding-bottom: 30px; }
   .works .container .one {
     background: url("../img/01.jpg") no-repeat 37px 46px; }
   .works .container .two {
@@ -323,7 +335,8 @@ span {
     font-size: 40px;
     line-height: 55px;
     text-align: center;
-    color: #242424; }
+    color: #242424;
+    padding-bottom: 30px; }
   .works .container p {
     font-weight: 700;
     line-height: 18px;
@@ -347,6 +360,7 @@ span {
     font-size: 13px;
     line-height: 16px;
     text-align: center;
-    color: #242424; }
+    color: #242424;
+    margin: 0 500px; }
 
 /*# sourceMappingURL=style.css.map */

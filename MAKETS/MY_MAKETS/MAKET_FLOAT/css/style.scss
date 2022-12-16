@@ -33,8 +33,16 @@ span {
     padding-left: 30px;
 }
 
+
+.carousel-item {
+    img{
+        float: left;
+        margin-right: 29px;
+    }
+}
+
 .carousel-control-prev {
-    left: 209px;
+    left: -103px;
     .carousel-control-prev-icon {
         background: url('../img/preview.svg') no-repeat;
     }
@@ -42,7 +50,7 @@ span {
 
 
 .carousel-control-next {
-    right: 171px;
+    right: -117px;
     .carousel-control-next-icon {
         background: url('../img/next.svg') no-repeat;
     
@@ -53,9 +61,7 @@ span {
 // header 
 .header {
     height: 870px;
-    background: url('../img/vline\ 1.jpg') 16% repeat-y,
-                url('../img/vline\ 1.jpg') 84% repeat-y,
-                url('../img/header_fon.jpg') top center no-repeat;
+    background: url('../img/header_fon.jpg') top center no-repeat;
     
     .header_top {
         .container {
@@ -155,10 +161,10 @@ span {
 // 2nd block
 .tehmap {
     height: 560px;
-    background: url('../img/drawing1.png') no-repeat 55px -23px,
-                url('../img/vline\ 1.jpg') 16% repeat-y,
-                url('../img/vline\ 1.jpg') 84% repeat-y;
     .container {
+        .img {
+            float: left;
+        }
         .article {
             position: relative;
             top: 140px;
@@ -187,11 +193,13 @@ span {
 
 // 3rd block 
 .picture {
-    background:
-        url('../img/design.png') no-repeat -15px -23px,
-        url('../img/vline\ 1.jpg') 16% repeat-y,
-        url('../img/vline\ 1.jpg') 84% repeat-y;
     .container {
+        position: relative;
+        .img {
+            float: left;
+            position: absolute;
+            left: -110px;
+        }
         .article2 {
             padding-left: 613px;
             padding-top: 87px;
@@ -215,8 +223,6 @@ span {
 // 4d block 
 .repair_project {
     margin-top: 120px;
-    background: url('../img/vline\ 1.jpg') 16% repeat-y,
-                url('../img/vline\ 1.jpg') 84% repeat-y;
     .rp_header {
         padding-bottom: 50px;
         .container {
@@ -351,10 +357,7 @@ span {
 
 // 5d block 
 .our_projects {
-    margin-top: 100px;
-    margin-bottom: 30px;
-    background: url('../img/vline\ 1.jpg') 16% repeat-y,
-                url('../img/vline\ 1.jpg') 84% repeat-y;
+    padding-top: 100px;
     .container {
         h1 {
             font-weight: 700;
@@ -369,15 +372,12 @@ span {
             line-height: 18px;
             text-align: center;
             color: #242424;
-            padding-bottom: 26px;
         }
         .slider {
-            height: 382px;
             padding: 26px 0 0 22px;
-            margin-bottom: 76px;
             left: 342px;
             #carouselExampleFade {
-                padding-left: 342px;
+                padding-left: 30px;
                 position: relative;
                 .carousel-inner {
                     .carousel-item {
@@ -385,7 +385,7 @@ span {
                             width: 573px;
                             height: 382px;
                         }
-                        button {
+                        .btn_visual {
                             width: 155px;
                             height: 40px;
                             background: #FFFFFF;
@@ -394,19 +394,32 @@ span {
                             color: #242424;
                             border: none;
                             position: absolute;
-                            right: 568px;
+                            left: -144px;
+                            bottom: 12px;
+                        }
+                        .btn_realise {
+                            width: 155px;
+                            height: 40px;
+                            background: #FFFFFF;
+                            font-weight: 700;
+                            line-height: 18px;
+                            color: #242424;
+                            border: none;
+                            position: absolute;
+                            left: 458px;
                             bottom: 12px;
                         }
                     }
                     
                 }
             }
-        }
-        p {
-            font-weight: 700;
-            line-height: 18px;
-            text-align: center;
-            color: #242424;
+            p {
+                margin-top: 100px;
+                font-weight: 700;
+                line-height: 18px;
+                text-align: center;
+                color: #242424;
+            }
         }
     }
 }
@@ -415,8 +428,6 @@ span {
 // 6th block 
 .humans_code {
     padding-bottom: 103px;
-    background: url('../img/vline\ 1.jpg') 16% repeat-y,
-                url('../img/vline\ 1.jpg') 84% repeat-y;
     .container {
         h1 {
             font-weight: 700;
@@ -427,7 +438,6 @@ span {
             padding-bottom: 104px;
         }
         img {
-            float: left;
             margin-right: 30px;
         }
         p {
@@ -441,8 +451,6 @@ span {
 // 7th block 
 .works {
     padding-bottom: 30px;
-    background: url('../img/vline\ 1.jpg') 16% repeat-y,
-                url('../img/vline\ 1.jpg') 84% repeat-y;
     .container {
         .one {
             background: url('../img/01.jpg') no-repeat 37px 46px;
@@ -466,6 +474,7 @@ span {
             line-height: 55px;
             text-align: center;
             color: #242424;
+            padding-bottom: 30px;
         }
         p {
             font-weight: 700;
@@ -496,6 +505,11 @@ span {
             line-height: 16px;
             text-align: center;
             color: #242424;
+            margin: 0 500px;
         }
     }
 }
+
+
+
+// @media all and (max-width:)
