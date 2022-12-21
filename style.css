@@ -53,8 +53,12 @@ div a
 {
     color: #4e9e4e;
     font-family: 'Sirin Stencil', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
 
+}
+
+.fastAccess > h4 {
+    margin-bottom: 0;
 }
 
 p{

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tefal</title>
+    <style>
+        .main {
+            width: 550px;
+            margin-left: 470px;
+            height: 500px;
+            text-align: center;
+            position: relative;
+            background-color: red;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        .img {
+            position: absolute;
+            bottom: 0;
+        }
+
+        #one {
+            z-index: 1;
+        }
+
+        #two {
+            bottom: 100px;
+            z-index: 2;
+        }
+
+        #two:hover {
+            bottom: -100px;
+            transition-duration: 1.5s;
+
+}
+
+        #three {
+            z-index: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Наведите на красную область</h1>
+        <div id="one" class="img"><img src="img1 (1).png" alt=""></div>
+        <div id="two" class="img"><img src="img2.png" alt=""></div>
+        <div id="three" class="img"><img src="img3.png" alt=""></div>
+    </div>
+</body>
+</html>
