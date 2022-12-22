@@ -267,13 +267,13 @@ span {
   .our_projects .container .slider {
     padding: 26px 0 0 22px;
     left: 342px; }
-    .our_projects .container .slider #carouselExampleFade {
+    .our_projects .container .slider #carouselExampleControls {
       padding-left: 30px;
       position: relative; }
-      .our_projects .container .slider #carouselExampleFade .carousel-inner .carousel-item img {
+      .our_projects .container .slider #carouselExampleControls .carousel-inner .carousel-item img {
         width: 573px;
         height: 382px; }
-      .our_projects .container .slider #carouselExampleFade .carousel-inner .carousel-item .btn_visual {
+      .our_projects .container .slider #carouselExampleControls .carousel-inner .carousel-item .btn_visual {
         width: 155px;
         height: 40px;
         background: #FFFFFF;
@@ -284,7 +284,7 @@ span {
         position: absolute;
         left: -144px;
         bottom: 12px; }
-      .our_projects .container .slider #carouselExampleFade .carousel-inner .carousel-item .btn_realise {
+      .our_projects .container .slider #carouselExampleControls .carousel-inner .carousel-item .btn_realise {
         width: 155px;
         height: 40px;
         background: #FFFFFF;

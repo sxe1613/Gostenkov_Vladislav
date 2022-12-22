@@ -1,0 +1,9 @@
+@media all and (max-width: 1200px) {
+    .carousel-item {
+            width: 70%;  
+    }
+    .carousel-item .sliders {
+        width: 280px;
+        height: 191px;
+    }
+}
