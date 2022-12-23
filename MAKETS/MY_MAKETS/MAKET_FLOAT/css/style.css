@@ -16,7 +16,7 @@ body {
   content: ''; }
 
 .container {
-  width: 1280px;
+  width: 1480px;
   margin: 0 auto; }
 
 span {
@@ -32,12 +32,12 @@ span {
   margin-right: 29px; }
 
 .carousel-control-prev {
-  left: -103px; }
+  left: -113px; }
   .carousel-control-prev .carousel-control-prev-icon {
     background: url("../img/preview.svg") no-repeat; }
 
 .carousel-control-next {
-  right: -117px; }
+  right: -88px; }
   .carousel-control-next .carousel-control-next-icon {
     background: url("../img/next.svg") no-repeat; }
 
@@ -117,44 +117,43 @@ span {
 
 .tehmap {
   height: 560px; }
-  .tehmap .container .img {
+  .tehmap .img {
     float: left; }
-  .tehmap .container .article {
+  .tehmap .article {
     position: relative;
     top: 140px;
     padding-left: 613px; }
-    .tehmap .container .article h1 {
+    .tehmap .article h1 {
       font-weight: 700;
       font-size: 40px;
       line-height: 55px;
       color: #242424;
       padding-bottom: 40px; }
-    .tehmap .container .article p {
+    .tehmap .article p {
       line-height: 30px;
       padding-bottom: 20px; }
-    .tehmap .container .article h5 {
+    .tehmap .article h5 {
       padding-bottom: 20px;
       font-weight: 700;
       line-height: 18px;
       color: #242424; }
 
-.picture .container {
+.picture {
   position: relative; }
-  .picture .container .img {
+  .picture .img {
     float: left;
     position: absolute;
     left: -110px; }
-  .picture .container .article2 {
+  .picture .article2 {
     padding-left: 613px;
     padding-top: 87px; }
-    .picture .container .article2 h1 {
-      width: 800px;
+    .picture .article2 h1 {
       font-weight: 700;
       font-size: 40px;
       line-height: 55px;
       color: #242424;
       padding-bottom: 40px; }
-    .picture .container .article2 p {
+    .picture .article2 p {
       margin: 0;
       line-height: 30px; }
 
@@ -252,28 +251,28 @@ span {
 
 .our_projects {
   padding-top: 100px; }
-  .our_projects .container h1 {
+  .our_projects h1 {
     font-weight: 700;
     font-size: 40px;
     line-height: 55px;
     text-align: center;
     color: #242424;
     padding-bottom: 30px; }
-  .our_projects .container p {
+  .our_projects p {
     font-weight: 700;
     line-height: 18px;
     text-align: center;
     color: #242424; }
-  .our_projects .container .slider {
+  .our_projects .slider {
     padding: 26px 0 0 22px;
     left: 342px; }
-    .our_projects .container .slider #carouselExampleControls {
+    .our_projects .slider #carouselExampleControls {
       padding-left: 30px;
       position: relative; }
-      .our_projects .container .slider #carouselExampleControls .carousel-inner .carousel-item img {
+      .our_projects .slider #carouselExampleControls .carousel-inner .carousel-item img {
         width: 573px;
         height: 382px; }
-      .our_projects .container .slider #carouselExampleControls .carousel-inner .carousel-item .btn_visual {
+      .our_projects .slider #carouselExampleControls .carousel-inner .carousel-item .btn_visual {
         width: 155px;
         height: 40px;
         background: #FFFFFF;
@@ -284,7 +283,7 @@ span {
         position: absolute;
         left: -144px;
         bottom: 12px; }
-      .our_projects .container .slider #carouselExampleControls .carousel-inner .carousel-item .btn_realise {
+      .our_projects .slider #carouselExampleControls .carousel-inner .carousel-item .btn_realise {
         width: 155px;
         height: 40px;
         background: #FFFFFF;
@@ -295,7 +294,7 @@ span {
         position: absolute;
         left: 458px;
         bottom: 12px; }
-    .our_projects .container .slider p {
+    .our_projects .slider p {
       margin-top: 100px;
       font-weight: 700;
       line-height: 18px;

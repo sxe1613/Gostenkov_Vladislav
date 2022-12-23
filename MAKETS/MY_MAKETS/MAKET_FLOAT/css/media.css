@@ -1,9 +1,43 @@
-@media all and (max-width: 1200px) {
-    .carousel-item {
-            width: 70%;  
+@media all and (max-width: 1401px) {
+    .our_projects .slider #carouselExampleControls
+    .carousel-inner .carousel-item .sliders {
+        width: 443px;
+        height: 252px;
     }
-    .carousel-item .sliders {
-        width: 280px;
-        height: 191px;
+    .our_projects .slider {
+        padding: 26px 0 0 131px;
+    }
+}
+@media all and (max-width: 1201px) {
+    .our_projects .slider #carouselExampleControls
+    .carousel-inner .carousel-item .sliders {
+        width: 443px;
+        height: 252px;
+    }
+    .tehmap {
+        width: 620px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .tehmap .img {
+        float: none;
+    }
+    .tehmap .container .article {
+        padding: 0;
+        position: static;
+    }
+    .picture {
+        width: 700px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .pircture .container > .img {
+        float: none;
+        
+    width: 700px;
+    }
+    .picture .container .article2 {
+        padding: 0;
+        position: static;
     }
 }

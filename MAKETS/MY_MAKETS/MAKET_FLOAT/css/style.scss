@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-    width: 1280px;
+    width: 1480px;
     margin: 0 auto;
 }
 
@@ -42,7 +42,7 @@ span {
 }
 
 .carousel-control-prev {
-    left: -103px;
+    left: -113px;
     .carousel-control-prev-icon {
         background: url('../img/preview.svg') no-repeat;
     }
@@ -50,7 +50,7 @@ span {
 
 
 .carousel-control-next {
-    right: -117px;
+    right: -88px;
     .carousel-control-next-icon {
         background: url('../img/next.svg') no-repeat;
     
@@ -161,7 +161,6 @@ span {
 // 2nd block
 .tehmap {
     height: 560px;
-    .container {
         .img {
             float: left;
         }
@@ -186,14 +185,12 @@ span {
                 line-height: 18px;
                 color: #242424;
             }
-        }
     }
 }
 
 
 // 3rd block 
 .picture {
-    .container {
         position: relative;
         .img {
             float: left;
@@ -204,7 +201,6 @@ span {
             padding-left: 613px;
             padding-top: 87px;
             h1 {
-                width: 800px;
                 font-weight: 700;
                 font-size: 40px;
                 line-height: 55px;
@@ -216,7 +212,6 @@ span {
                 line-height: 30px;
             }
         }
-    }
 }
 
 
@@ -358,7 +353,6 @@ span {
 // 5d block 
 .our_projects {
     padding-top: 100px;
-    .container {
         h1 {
             font-weight: 700;
             font-size: 40px;
@@ -421,7 +415,6 @@ span {
                 color: #242424;
             }
         }
-    }
 }
 
 
