@@ -7,7 +7,7 @@
           box-sizing: border-box; }
 
 .container {
-  width: 1440px;
+  width: 1457px;
   margin: 0 auto; }
 
 a {
@@ -16,7 +16,57 @@ a {
 li {
   list-style-type: none; }
 
+.btn_phoneNum {
+  font-family: 'Poppins', sans-serif;
+  background: url("../img/phone_icon.svg") no-repeat 30px 20px;
+  background-color: #FA002C;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  width: 236px;
+  height: 58px; }
+
+.color_red {
+  color: #FA002C; }
+
+.analis > * {
+  padding-left: 59px; }
+
+.countries > * {
+  background: #F8F8F8;
+  border: 1px solid #FFFFFF;
+  border-radius: 24px;
+  width: 461px;
+  height: 136px;
+  margin-left: 9px;
+  margin-bottom: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.header_img {
+  width: 85px;
+  height: 84px;
+  padding: 31px 0 31px 20px; }
+
+.header_article {
+  padding-top: 18px;
+  padding-left: 28px; }
+  .header_article h4 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px; }
+  .header_article p {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 26px; }
+
 .header {
+  background: url("../img/fon_headerCar.png") no-repeat 581px 279px, url("../img/fon_header.png") no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
@@ -26,9 +76,130 @@ li {
     display: flex;
     height: 69px;
     padding-top: 4px; }
+  .header .container img {
+    padding-right: 28px; }
   .header .container ul {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    padding-top: 24px; }
+    .header .container ul li {
+      font-size: 16px;
+      padding-right: 48px; }
+  .header .container button {
+    margin-left: 7px;
+    margin-top: 4px;
+    padding-left: 17px; }
+  .header .container .header_bottom {
+    margin-top: 71px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    .header .container .header_bottom .analis {
+      background: rgba(255, 255, 255, 0.64);
+      border: 1px solid #FFFFFF;
+      border-radius: 24px;
+      width: 812px;
+      height: 595px; }
+      .header .container .header_bottom .analis h1 {
+        font-weight: 800;
+        font-size: 60px;
+        line-height: 70px;
+        color: #282828;
+        margin-top: 53px;
+        margin-bottom: 24px; }
+        .header .container .header_bottom .analis h1 span {
+          font-size: 60px; }
+      .header .container .header_bottom .analis p {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000000; }
+      .header .container .header_bottom .analis ul {
+        display: block;
+        margin-bottom: 36px; }
+        .header .container .header_bottom .analis ul li:before {
+          padding-right: 23px;
+          content: url("../img/galochka.svg"); }
+        .header .container .header_bottom .analis ul li {
+          font-weight: 600;
+          font-size: 26px;
+          line-height: 36px;
+          color: #000000;
+          margin-bottom: 13px; }
+      .header .container .header_bottom .analis button {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        color: #FFFFFF;
+        background: #FA002C;
+        -webkit-box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.2);
+                box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        width: 301px;
+        height: 80px;
+        border: none;
+        margin-left: 59px; }
+    .header .container .header_bottom .countries {
+      background: rgba(255, 255, 255, 0.2);
+      border: 1px solid #FFFFFF;
+      border-radius: 30px;
+      width: 479px;
+      position: relative; }
+      .header .container .header_bottom .countries .southK {
+        margin-top: 8px; }
+
+.reqNservices {
+  padding-top: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: url("../img/AUDOtop.png") no-repeat; }
+  .reqNservices .form_help {
+    background: url("../img/arrow.svg") no-repeat 376px 339px, #FFFFFF;
+    padding-left: 50px;
+    width: 549px;
+    height: 525px;
+    -webkit-box-shadow: 0px 2px 50px rgba(35, 37, 38, 0.07);
+            box-shadow: 0px 2px 50px rgba(35, 37, 38, 0.07);
+    border-radius: 22px; }
+    .reqNservices .form_help h2 {
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 69px;
+      padding-bottom: 24px; }
+    .reqNservices .form_help p {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 26px;
+      padding-bottom: 36px; }
+    .reqNservices .form_help #input_num {
+      background: #FFFFFF;
+      border: 1px solid #C9C9C9;
+      border-radius: 14px;
+      width: 449px;
+      height: 72px;
+      font-weight: 700;
+      line-height: 20px;
+      vertical-align: center;
+      padding-left: 24px;
+      margin-bottom: 16px; }
+    .reqNservices .form_help button {
+      background: #FA002C;
+      -webkit-box-shadow: 0px 12px 60px rgba(250, 0, 44, 0.4);
+              box-shadow: 0px 12px 60px rgba(250, 0, 44, 0.4);
+      border-radius: 14px;
+      font-weight: 700;
+      line-height: 20px;
+      text-align: center;
+      color: #FFFFFF;
+      border: none;
+      width: 286px;
+      height: 72px; }
 
 /*# sourceMappingURL=style_flex.css.map */
