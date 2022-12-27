@@ -7,7 +7,7 @@
           box-sizing: border-box; }
 
 .container {
-  width: 1457px;
+  width: 1458px;
   margin: 0 auto; }
 
 a {
@@ -22,7 +22,6 @@ li {
   background-color: #FA002C;
   border-radius: 8px;
   font-weight: 700;
-  font-size: 18px;
   line-height: 26px;
   text-align: center;
   color: #FFFFFF;
@@ -62,10 +61,10 @@ li {
     line-height: 37px; }
   .header_article p {
     margin-top: 10px;
-    font-size: 18px;
     line-height: 26px; }
 
 .header {
+  height: 840px;
   background: url("../img/fon_headerCar.png") no-repeat 581px 279px, url("../img/fon_header.png") no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -95,8 +94,9 @@ li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around; }
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
     .header .container .header_bottom .analis {
       background: rgba(255, 255, 255, 0.64);
       border: 1px solid #FFFFFF;
@@ -131,7 +131,6 @@ li {
           margin-bottom: 13px; }
       .header .container .header_bottom .analis button {
         font-weight: 700;
-        font-size: 18px;
         line-height: 26px;
         text-align: center;
         color: #FFFFFF;
@@ -153,53 +152,95 @@ li {
         margin-top: 8px; }
 
 .reqNservices {
-  padding-top: 300px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  background: url("../img/AUDOtop.png") no-repeat; }
-  .reqNservices .form_help {
-    background: url("../img/arrow.svg") no-repeat 376px 339px, #FFFFFF;
-    padding-left: 50px;
-    width: 549px;
-    height: 525px;
-    -webkit-box-shadow: 0px 2px 50px rgba(35, 37, 38, 0.07);
-            box-shadow: 0px 2px 50px rgba(35, 37, 38, 0.07);
-    border-radius: 22px; }
-    .reqNservices .form_help h2 {
-      font-weight: 700;
-      font-size: 50px;
-      line-height: 69px;
-      padding-bottom: 24px; }
-    .reqNservices .form_help p {
+  padding-top: 110px;
+  position: relative; }
+  .reqNservices .container {
+    height: 858px;
+    padding-top: 85px;
+    padding-left: 57px;
+    border-radius: 36px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: url("../img/AUDItop.png") no-repeat 7px -6px, url("../img/border_fon.png") no-repeat 0 -6px; }
+    .reqNservices .container [src$="img/AUDI_full.png"] {
+      position: absolute;
+      top: -216px;
+      right: -138px; }
+    .reqNservices .container [src$="img/AUDIbotttom.png"] {
+      position: absolute;
+      bottom: -162px;
+      left: -90px; }
+    .reqNservices .container .form_help {
+      background: url("../img/arrow.svg") no-repeat 376px 339px, #FFFFFF;
+      padding-left: 50px;
+      width: 549px;
+      height: 525px;
+      -webkit-box-shadow: 0px 2px 50px rgba(35, 37, 38, 0.07);
+              box-shadow: 0px 2px 50px rgba(35, 37, 38, 0.07);
+      border-radius: 22px;
+      margin-right: 79px; }
+      .reqNservices .container .form_help h2 {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 69px;
+        padding-bottom: 24px; }
+      .reqNservices .container .form_help p {
+        font-weight: 500;
+        line-height: 26px;
+        padding-bottom: 36px; }
+      .reqNservices .container .form_help #input_num {
+        background: #FFFFFF;
+        border: 1px solid #C9C9C9;
+        border-radius: 14px;
+        width: 449px;
+        height: 72px;
+        font-weight: 700;
+        line-height: 20px;
+        vertical-align: center;
+        padding-left: 24px;
+        margin-bottom: 16px; }
+      .reqNservices .container .form_help button {
+        background: #FA002C;
+        -webkit-box-shadow: 0px 12px 60px rgba(250, 0, 44, 0.4);
+                box-shadow: 0px 12px 60px rgba(250, 0, 44, 0.4);
+        border-radius: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        border: none;
+        width: 286px;
+        height: 72px; }
+    .reqNservices .container .services_col1, .reqNservices .container .services_col2 {
       font-weight: 500;
-      font-size: 18px;
       line-height: 26px;
-      padding-bottom: 36px; }
-    .reqNservices .form_help #input_num {
-      background: #FFFFFF;
-      border: 1px solid #C9C9C9;
-      border-radius: 14px;
-      width: 449px;
-      height: 72px;
-      font-weight: 700;
-      line-height: 20px;
-      vertical-align: center;
-      padding-left: 24px;
-      margin-bottom: 16px; }
-    .reqNservices .form_help button {
-      background: #FA002C;
-      -webkit-box-shadow: 0px 12px 60px rgba(250, 0, 44, 0.4);
-              box-shadow: 0px 12px 60px rgba(250, 0, 44, 0.4);
-      border-radius: 14px;
-      font-weight: 700;
-      line-height: 20px;
-      text-align: center;
-      color: #FFFFFF;
-      border: none;
-      width: 286px;
-      height: 72px; }
+      margin-left: 50px; }
+      .reqNservices .container .services_col1 img, .reqNservices .container .services_col2 img {
+        margin-bottom: 16px; }
+      .reqNservices .container .services_col1 div, .reqNservices .container .services_col2 div {
+        width: 325px;
+        padding-bottom: 45px; }
+
+.free_consult .container h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 69px; }
+.free_consult .container p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #292929; }
+.free_consult .container button {
+  width: 301px;
+  height: 72px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #FA002C;
+  -webkit-box-shadow: 0px 12px 60px rgba(250, 0, 44, 0.4);
+          box-shadow: 0px 12px 60px rgba(250, 0, 44, 0.4);
+  border-radius: 14px; }
 
 /*# sourceMappingURL=style_flex.css.map */
