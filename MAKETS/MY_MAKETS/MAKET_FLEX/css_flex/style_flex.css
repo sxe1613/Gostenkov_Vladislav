@@ -165,12 +165,12 @@ li {
     background: url("../img/AUDItop.png") no-repeat 7px -6px, url("../img/border_fon.png") no-repeat 0 -6px; }
     .reqNservices .container [src$="img/AUDI_full.png"] {
       position: absolute;
-      top: -216px;
-      right: -138px; }
+      top: -22.2%;
+      right: 2.7%; }
     .reqNservices .container [src$="img/AUDIbotttom.png"] {
       position: absolute;
-      bottom: -162px;
-      left: -90px; }
+      bottom: -16.8%;
+      left: 5.5%; }
     .reqNservices .container .form_help {
       background: url("../img/arrow.svg") no-repeat 376px 339px, #FFFFFF;
       padding-left: 50px;
@@ -222,25 +222,126 @@ li {
         width: 325px;
         padding-bottom: 45px; }
 
-.free_consult .container h1 {
+.free_consult {
+  padding-top: 200px; }
+  .free_consult .container {
+    height: 566px;
+    background: url("../img/Group_fon_hyndai.png") no-repeat 0px -263px; }
+    .free_consult .container h1 {
+      padding-left: 72px;
+      padding-top: 70px;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 69px; }
+      .free_consult .container h1 span {
+        font-size: 50px; }
+    .free_consult .container p {
+      padding-left: 72px;
+      padding-top: 24px;
+      font-size: 16px;
+      line-height: 22px;
+      color: #292929; }
+    .free_consult .container button {
+      margin-left: 72px;
+      margin-top: 50px;
+      margin-bottom: 80px;
+      width: 301px;
+      height: 72px;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      color: #FFFFFF;
+      background: #FA002C;
+      -webkit-box-shadow: 0px 12px 60px rgba(250, 0, 44, 0.4);
+              box-shadow: 0px 12px 60px rgba(250, 0, 44, 0.4);
+      border-radius: 14px;
+      border: none; }
+
+.contacts .container h2 {
   font-weight: 700;
   font-size: 50px;
-  line-height: 69px; }
-.free_consult .container p {
-  font-size: 16px;
-  line-height: 22px;
-  color: #292929; }
-.free_consult .container button {
-  width: 301px;
-  height: 72px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  text-align: center;
-  color: #FFFFFF;
-  background: #FA002C;
-  -webkit-box-shadow: 0px 12px 60px rgba(250, 0, 44, 0.4);
-          box-shadow: 0px 12px 60px rgba(250, 0, 44, 0.4);
-  border-radius: 14px; }
+  line-height: 69px;
+  padding-bottom: 32px; }
+.contacts .container .maps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .contacts .container .maps .msk, .contacts .container .maps .samara {
+    width: 706px;
+    height: 498px;
+    background: url("../img/border_maps.png") no-repeat;
+    margin-right: 28px; }
+  .contacts .container .maps .contacts_maps {
+    width: 658px;
+    height: 320px;
+    margin: 25px 24px 34px 24px; }
+  .contacts .container .maps .contacts_article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-left: 48px; }
+    .contacts .container .maps .contacts_article h5 {
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 37px;
+      padding-right: 113px;
+      padding-bottom: 15px; }
+    .contacts .container .maps .contacts_article h4 {
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 37px;
+      text-align: right; }
+    .contacts .container .maps .contacts_article p::before {
+      content: url("../img/metka_adress.svg"); }
+
+.footer {
+  height: 287px;
+  background: #EEEEEE;
+  margin-top: 110px;
+  border-top-right-radius: 40.8pt;
+  border-top-left-radius: 40.8pt; }
+  .footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .footer .container ul:first-child {
+      padding-top: 50px; }
+      .footer .container ul:first-child li:first-child {
+        padding-bottom: 16px; }
+      .footer .container ul:first-child li:last-child {
+        font-size: 16px;
+        line-height: 22px;
+        color: #292929; }
+    .footer .container ul:nth-child(2), .footer .container ul:nth-child(3) {
+      padding-top: 59px;
+      padding-left: 91px; }
+      .footer .container ul:nth-child(2) li, .footer .container ul:nth-child(3) li {
+        padding-bottom: 16px; }
+      .footer .container ul:nth-child(2) li > a, .footer .container ul:nth-child(3) li > a {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        color: #000000; }
+    .footer .container ul:last-child {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end;
+      padding-top: 54px;
+      padding-left: 295px; }
+      .footer .container ul:last-child li button {
+        padding-left: 17px;
+        margin-bottom: 16px; }
+      .footer .container ul:last-child li:last-child:before {
+        content: url("../img/metka_adress.svg"); }
 
 /*# sourceMappingURL=style_flex.css.map */
